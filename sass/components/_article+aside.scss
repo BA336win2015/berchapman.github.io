@@ -1,0 +1,47 @@
+
+
+/*================================================*/
+//VARIABLES
+/*================================================*/
+
+
+$asidecolor: $mediumgreen;
+
+/*================================================*/
+//End Variables
+/*================================================*/
+
+
+
+//ARTICLE
+.main article {
+    box-sizing: border-box;
+    width: 100%;
+    @include breakpoint($tablet){
+        width: 75%;
+        padding-right: 10%;
+    }
+}
+
+
+
+//ASIDE
+.main aside {
+    box-sizing: border-box;
+    box-shadow: none;
+    width: 100%;
+    border: none;
+    padding: 10px 0%;
+    background-color: $asidecolor;
+    @include breakpoint($mini){
+        padding: 10px 3%;
+    }
+    @include breakpoint($phablet) {
+        box-shadow: 0px 5px 10px black;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    }
+    @include breakpoint($tablet) {
+        width: 25%;
+        padding: 10px 2%;
+    }
+}

@@ -1,0 +1,36 @@
+
+
+/*================================================*/
+//VARIABLES
+/*================================================*/
+
+$footercolor: $mediumgreen;
+$height: 120px;
+
+/*================================================*/
+//End Variables
+/*================================================*/
+
+
+
+//FOOTER CONTAINER
+.footer-container {
+    border: none;
+    background-color: $footercolor;
+    
+    height: $height;
+    
+    -webkit-box-shadow: inset 0px -60px 66px -24px $darkgreen;
+    -moz-box-shadow: inset 0px -60px 66px -24px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -60px 66px -24px $darkgreen;
+        
+        
+    //position: relative;
+    bottom: 0;
+    
+}
+
+//FOOTER
+footer.wrapper {
+
+}
